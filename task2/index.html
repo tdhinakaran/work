@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>registration form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="form-wraper">
+        <p>Create Your BookMytrip Account</p>
+        <form>
+            <div class="field-group">
+                <label class="field-label">First name</label>
+                <input type="text" placeholder="Enter your First Name" />
+            </div>
+            <div class="field-group">
+                <label class="field-label">Last name</label>
+                <input type="text" placeholder="Enter your Last Name" />
+            </div>
+            <div class="field-group">
+                <label class="field-label">Mobile Number</label>
+                <input type="tel" placeholder="Enter your mobile number" />
+            </div>
+            <div class="field-group">
+                <label class="field-label">Email Address</label>
+                <input type="email" placeholder="Enter your email address" />
+            </div>
+            <div class="field-group">
+                <label class="field-label">Password</label>
+                <input type="password" placeholder="Create password" />
+            </div>
+            <div class="field-group">
+                <label class="field-label">Gender</label>
+                <div>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="field-group">
+                <label class="field-label">City</label>
+                <!-- <input type="text" placeholder="Choose...."> -->
+                <select name="city" id="city">
+                    <option value="0">Select City</option>
+                    <option value="1">Chennai</option>
+                    <option value="2">Bangalore</option>
+                    <option value="3">Hyderabad</option>
+                </select>
+            </div>
+            <div> <input type="checkbox" id="terms"><label for="terms"> I would like to be kept informed of special
+                    promotions and offers by BookMytrip</label>
+            </div>
+        </form>
+        <button>REGISTER</button>
+    </div>
+</body>
+
+</html>
